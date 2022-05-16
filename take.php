@@ -6,7 +6,7 @@ preg_match_all('<span class="text-bold color-fg-default">2</span>(.*?) (.*?)"fol
 
 //print_r($dlinktake);
 
-$total = $dlinktake[2][0];
+//$total = $dlinktake[2][0];
 
 ?>
 
