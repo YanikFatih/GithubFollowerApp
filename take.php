@@ -21,7 +21,12 @@ $total = $dlinktake[2][0];
     <br>
     <br>
     <b style="font: size 400px;"><center><?php echo $total ?></center></b>
+
+    <?php
+
     
+
+    ?>
 
 </body>
 </html>
