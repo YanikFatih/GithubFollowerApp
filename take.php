@@ -6,7 +6,7 @@ preg_match_all('<span class="text-bold color-fg-default">2</span>(.*?) (.*?)"fol
 
 //print_r($dlinktake);
 
-//$total = $dlinktake[2][0];
+$total = $dlinktake[2][0];
 
 ?>
 
@@ -24,7 +24,14 @@ preg_match_all('<span class="text-bold color-fg-default">2</span>(.*?) (.*?)"fol
 
     <?php
 
-    
+    $body = "<h1>People Followed</h1>"
+
+    //txt file reading op
+    $file = "data.txt";
+    $handle = fopen($file, "r");
+    $content = fread($handle, filesize($file)); //.
+
+
 
     ?>
 
