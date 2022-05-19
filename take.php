@@ -41,9 +41,10 @@ $total = $dlinktake[1][0];
     //checking operations 
 
     if($follower > $total){?>
+    
+    <h1 style="font-size:100px; color:green;" ><center>NEW FOLLOWER!</center></h1>
 
-
-    }
+    <audio src=""></audio>
 
 </body>
 </html>
