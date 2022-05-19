@@ -2,11 +2,14 @@
 
 $data = file_get_contents("https://github.com/YanikFatih");
 
-preg_match_all('<span class="text-bold color-fg-default">2</span>(.*?) (.*?)"followers"@si', $data, $dlinktake);
+preg_match_all('@<span class="text-bold color-fg-default">(.*?) (.*?)</span>@si', $data, $dlinktake);
 
 //print_r($dlinktake);
 
-$total = $dlinktake[2][0];
+echo $dlinktake[1][0];
+
+
+//$total = $dlinktake[2][0];
 
 ?>
 
