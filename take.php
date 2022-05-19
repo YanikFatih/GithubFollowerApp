@@ -6,10 +6,9 @@ preg_match_all('@<span class="text-bold color-fg-default">(.*?) (.*?)</span>@si'
 
 //print_r($dlinktake);
 
-echo $dlinktake[1][0];
+$dlinktake[1][0];
 
-
-//$total = $dlinktake[2][0];
+$total = $dlinktake[1][0];
 
 ?>
 
@@ -37,9 +36,14 @@ echo $dlinktake[1][0];
     $tolist = explode('', $content);
     fclose($handle);
 
+    $follower = (int)end($tolist);
+
+    //checking operations 
+
+    if($follower > $total){?>
 
 
-    ?>
+    }
 
 </body>
 </html>
