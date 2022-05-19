@@ -29,7 +29,7 @@ $total = $dlinktake[2][0];
     //txt file reading op
     $file = "data.txt";
     $handle = fopen($file, "r");
-    $content = fread($handle, filesize($file)); //.
+    $content = fread($handle, filesize($file)); //...
 
 
 
