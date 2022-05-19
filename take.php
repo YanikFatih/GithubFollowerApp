@@ -27,12 +27,15 @@ echo $dlinktake[1][0];
 
     <?php
 
-    $body = "<h1>People Followed</h1>"
+    $body = "<h1>PEOPLE FOLLOWED</h1>";
 
     //txt file reading op
     $file = "data.txt";
     $handle = fopen($file, "r");
-    $content = fread($handle, filesize($file)); //...
+    $content = fread($handle, filesize($file));
+
+    $tolist = explode('', $content);
+    fclose($handle);
 
 
 
