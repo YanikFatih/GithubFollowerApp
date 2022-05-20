@@ -55,7 +55,7 @@ $total = $dlinktake[1][0];
     
     } else { ?>
 
-    <h1 style="font-size:50px; color:red;"><center>No Follower :(</center></h1>
+    <h1 style="font-size:50px; color:brown;"><center>No Follower :(</center></h1>
     
     <?php } 
 
