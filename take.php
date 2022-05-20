@@ -40,11 +40,21 @@ $total = $dlinktake[1][0];
 
     //checking operations 
 
-    if($follower > $total){?>
+    if($follower > $total){    ?>
     
     <h1 style="font-size:100px; color:green;" ><center>NEW FOLLOWER!</center></h1>
 
     <audio src="follower.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+
+    <?php 
+    //writing into txt file
+    $file_h = fopen($file, 'w') or die("File could not open");
+    $data = " ".trim($total);
+    fwrite($file_h, $content.$data);
+    fclose($file_h);
+
+    
+    ?>
 
 </body>
 </html>
