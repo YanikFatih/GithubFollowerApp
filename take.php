@@ -22,7 +22,7 @@ $total = $dlinktake[1][0];
 <body>
     <br>
     <br>
-    <b style="font-size:400px;"><center><?php echo $total ?></center></b>
+    <b style="font-size:450px;"><center><?php echo $total ?></center></b>
 
     <?php
 
@@ -41,7 +41,7 @@ $total = $dlinktake[1][0];
     //checking  
     if($follower > $total){    ?>
     
-    <h1 style="font-size:100px; color:green;" ><center>NEW FOLLOWER!</center></h1>
+    <h1 style="font-size:60px; color:green;" ><center>NEW FOLLOWER!</center></h1>
 
     <audio src="follower.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
 
@@ -55,7 +55,7 @@ $total = $dlinktake[1][0];
     
     } else { ?>
 
-    <h1 style="font-size:100px; color:red;"><center>No Follower :(</center></h1>
+    <h1 style="font-size:50px; color:red;"><center>No Follower :(</center></h1>
     
     <?php } 
 
