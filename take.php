@@ -52,9 +52,12 @@ $total = $dlinktake[1][0];
     fwrite($file_h, $content.$data);
     fclose($file_h);
     
-    }
+    } else { ?>
 
-
+    <h1 style="font-size:100px; color:red;"><center>No Follower :(</center></h1>
+    
+    <?php } 
+    
     ?>
 
 </body>
