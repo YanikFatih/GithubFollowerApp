@@ -46,6 +46,7 @@ $total = $dlinktake[1][0];
     <audio src="follower.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
 
     <?php 
+    
     //writing into txt file
     $file_h = fopen($file, 'w') or die("File could not open");
     $data = " ".trim($total);
@@ -57,7 +58,7 @@ $total = $dlinktake[1][0];
     <h1 style="font-size:100px; color:red;"><center>No Follower :(</center></h1>
     
     <?php } 
-    
+
     ?>
 
 </body>
