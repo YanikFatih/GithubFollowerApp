@@ -22,7 +22,7 @@ $total = $dlinktake[1][0];
 <body>
     <br>
     <br>
-    <b style="font: size 400px;"><center><?php echo $total ?></center></b>
+    <b style="font-size:400px;"><center><?php echo $total ?></center></b>
 
     <?php
 
@@ -46,7 +46,7 @@ $total = $dlinktake[1][0];
     <audio src="follower.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
 
     <?php 
-    
+
     //writing into txt file
     $file_h = fopen($file, 'w') or die("File could not open");
     $data = " ".trim($total);
