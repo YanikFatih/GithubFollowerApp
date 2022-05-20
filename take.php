@@ -38,8 +38,7 @@ $total = $dlinktake[1][0];
 
     $follower = (int)end($tolist);
 
-    //checking operations 
-
+    //checking  
     if($follower > $total){    ?>
     
     <h1 style="font-size:100px; color:green;" ><center>NEW FOLLOWER!</center></h1>
@@ -52,8 +51,10 @@ $total = $dlinktake[1][0];
     $data = " ".trim($total);
     fwrite($file_h, $content.$data);
     fclose($file_h);
-
     
+    }
+
+
     ?>
 
 </body>
