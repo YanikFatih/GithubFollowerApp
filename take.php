@@ -15,7 +15,7 @@ $total = $dlinktake[1][0];
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Github Follower Count Tracker</title>
+    <title>Github Follower Count </title>
     <meta charset="UTF-8">
     <meta http_equiv="refresh" content="300;URL=take.php">
 </head>
