@@ -37,7 +37,6 @@ $total = $dlinktake[1][0];
     fclose($handle);
 
     $follower = (int)end($tolist);
-
     //checking  
     if($follower > $total){    ?>
     
