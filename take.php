@@ -42,7 +42,7 @@ $total = $dlinktake[1][0];
     
     <h1 style="font-size:60px; color:green;" ><center>NEW FOLLOWER!</center></h1>
 
-    <audio src="follower.mp3" type="audio/mpeg">Your browser does not support the audio element</audio>
+    <audio src="follower.mp3" type="audio/mpeg">Your browser does not support the audio element!</audio>
 
     <?php 
 
